@@ -1,7 +1,7 @@
 # Cold Mail Generator
 
 ## Overview
-The **Cold Mail Generator** is a Python-based tool designed to automatically generate cold emails for business development purposes. By providing job descriptions and relevant links, this tool crafts personalized and professional cold emails to potential clients, helping businesses reach out with tailored offerings.
+The **Cold Mail Generator** is a Python-based tool designed to automatically generate cold emails for business development purposes. By providing job descriptions and relevant links, this tool crafts personalized and professional cold emails to potential clients, helping businesses reach out with tailored offerings.The idea is inspired from Codebasics and this is an updated version of that project
 
 ## Features
 - Generate cold emails for business development purposes.

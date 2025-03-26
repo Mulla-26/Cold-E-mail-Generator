@@ -13,10 +13,10 @@ The **Cold Mail Generator** is a Python-based tool designed to automatically gen
 - Install the necessary Python libraries via the `requirements.txt` file:
   - `Streamlit 1.44.0`
   - `bs4` (for web scraping)
-  - 'langchain	0.3.21'
-  - 'langchain-community	0.3.20'	
-  - 'langchain-core	0.3.48'	
-  - 'langchain-groq	0.3.1'
+  - `langchain	0.3.21`
+  - `langchain-community	0.3.20`	
+  - `langchain-core	0.3.48`	
+  - `langchain-groq	0.3.1`
 
 ## Setup
 
@@ -33,7 +33,7 @@ The **Cold Mail Generator** is a Python-based tool designed to automatically gen
 
 3. Create a `.env` file in the root directory and provide the required environment variables:
     ```
-    OPENAI_API_KEY=your_openai_api_key
+    GROQ_API_KEY=your_GROQ_api_key
     ```
 
 4. Configure the cold mail generation settings and job descriptions as needed.
@@ -50,4 +50,4 @@ To use the Cold Mail Generator, follow these steps:
    Use the following command to run the cold mail generation:
 
    ```bash
-   python generate_email.py --job-description "Job Description" --links "Link1, Link2"
+    streamlit run main.py
